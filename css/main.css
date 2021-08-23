@@ -86,7 +86,7 @@ ul li {
 }
 
 .contacts__tel{
-    font-size: 30px;
+    font-size: 26px;
     line-height: 35px;
     text-decoration: none;
     margin-bottom: 2px;
@@ -131,6 +131,7 @@ ul li {
 
 .button{
     background: #FF3D00;
+    border: 0;
     border-radius: 35px;
     padding: 18px 53px;
     color: #FFFFFF;

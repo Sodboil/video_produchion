@@ -146,6 +146,7 @@ img{
     font-weight: 700;
     text-transform: uppercase;
     text-decoration: none;
+    cursor: pointer
 }
 
 .button:hover{
@@ -502,7 +503,7 @@ background: center center no-repeat;
         color: #303030;
         ;
         padding-top: 94px;
-        padding-bottom: 85px;
+        padding-bottom: 80px;
       
     }
 
@@ -561,13 +562,13 @@ background: center center no-repeat;
     .inner-section{
         background:#F4F5F5;
         color: #1A1B1E;
-        padding: 65px 0px;
+        padding: 45px 0px;
     }
 
     .inner-section__title{
         font-size: 48px;
         font-weight: 700;
-        margin-bottom: 65px;
+        margin-bottom: 60px;
     }
 
     .partners{
@@ -601,3 +602,209 @@ background: center center no-repeat;
         padding: 45px 0;
         margin-top: auto;;
     }
+
+    /*reviwews*/
+
+    .reviews{
+       column-count: 2; 
+       column-gap: 26px;
+       margin-bottom: 70px;
+    }
+
+    .review{
+        display: inline-flex;
+        flex-direction: column;
+        padding: 50px 28px;
+       
+    }
+
+    .reviews__item{ 
+        background: #F4F5F5;
+        margin-bottom: 17px;
+    }
+
+    .avatar{
+        width: 142px;
+        height: 142px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+
+    .reviews__headr{
+        display: flex;
+        align-items: center;
+        margin-bottom: 27px;
+    }
+
+    .reviews__photo{
+        margin-right: 22px;
+    }
+
+    .reviews__userdata{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .reviews__user{
+        color: #2E77A4;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 42px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 3px;
+    }
+
+    .reviews__user:after{
+        content: url("../img/vk-blu.png");
+        height: 35px;
+        margin-left: 7px;
+    }
+
+    .tag{
+        font-size: 13px;
+        color: #303030;
+        padding: 10px 25px;
+        border-radius: 50px;
+        background: #E7E7E7;
+    }
+
+    .reviews__tag{
+        background: #F2D4C9;
+    }
+
+    .reviews__title{
+        font-size: 30px;
+        font-weight: 700;
+        color: #202020;
+        margin-bottom: 13px;
+    }
+
+    .reviews__text{
+        color: #818181;
+        margin-bottom: 45px;
+        line-height: 27px;
+    }
+
+    .reviews__data{
+        font-size: 14px;
+        font-weight: 600;
+        color: #1A1B1E;
+    }
+
+    .separator{
+        background: #373737 url("../img/party.png") right 15% bottom no-repeat;
+        background-blend-mode: multiply;
+        min-height: 363px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .separator__content{
+        max-width: 48%;
+    }
+
+    .separator__title{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 65,37px;
+    }
+
+    .separator__title-red{
+        color: red;
+    }
+
+    .inner-section__title-reviews{
+        font-size: 36px;
+        font-weight: 800;
+    }
+
+    .form__row{
+        display: flex;
+        margin-bottom: 26px;
+    }
+
+    .form__input{
+        flex: 1;
+        margin-right: 28px;
+        border-radius: 5px;
+        border: none;
+        background: #ffffff;
+        padding: 20px 30px;
+        font-size: 18px;
+        color: #1A1B1E;
+    }
+
+    .form__input::placeholder{
+        color: #666666;
+    }
+
+    .form__input:last-child{
+        margin-right: 0;
+    }
+
+    .form__input--textarea{
+        height: 200px;
+    }
+
+    .form__controls{
+        display: flex;
+        margin-bottom: 33px;
+    }
+
+    .form__controls-title{
+        width: 38%;
+        font-size: 18px;
+    }
+
+    .controls{
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .controls__item{
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    .controls__elem{
+        cursor: pointer;
+    }
+
+    .controls__checkbox:checked ~ .contols__tag{
+        background: #F2D4C9;
+    }
+
+    .controls__checkbox{
+        display: none;
+    }
+
+    .contols__tag{
+        padding: 9px 12px;
+    }
+
+    .button-grey-black{
+        background: #8E8E8E;
+    }
+
+    .button-grey-black:hover{
+        background: #2b2b2b;
+    }
+
+    .form_button{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .form__btn{
+        margin-right: 13px;
+        padding: 18px 37px;
+    }
+
+    .form__btn:last-child{
+        margin-right: 0;
+    }
+

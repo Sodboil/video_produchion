@@ -15,12 +15,12 @@
         <div class="container">
             <header class="headr">
                 <div class="headr__col">
-                    <a href="#" class="logo">
+                    <a href="index.html" class="logo">
                         <img src="./img/logo.png" alt="логотип" class="logo__img">
                     </a>
                     <nav class="menu">
                         <ul class="menu__list">
-                            <li class="menu__item">
+                            <li class="menu__item menu__item-active">
                                 <a href="index.html" class="menu__link">Главная</a>
                             </li>
                             <li class="menu__item">
@@ -35,7 +35,13 @@
                 <div class="headr__col headr__col-align-right">
                     <address class="contacts">
                         <a href="tel:88007003030" class="contacts__tel">8 800 700 30 30</a>
-                        <div class="contacts__graph">График работы</div>
+                        <div class="dropdown">
+                            <a href="#" class="contacts__graph">График работы</a>
+                            <div class="dropdown__menu">
+                                <div class="dropdown__schedule">пн-вс: 09:00 - 20:00</div>
+                                <div class="dropdown__dinner">Обед: 14:00-14:30</div>
+                            </div>
+                        </div>
                     </address>
                 </div>
 
@@ -180,12 +186,12 @@
 
             <footer class="footer footer__home">
                 <div class="footer__col">
-                    <a href="#" class="logo">
+                    <a href="index.html" class="logo">
                         <img src="./img/logo.png" alt="логотип" class="logo__img">
                     </a>
                     <div class="menu__footer">
                         <ul class="menu__list">
-                            <li class="menu__item">
+                            <li class="menu__item menu__item-active">
                                 <a href="index.html" class="menu__link">Главная</a>
                             </li>
                             <li class="menu__item">
